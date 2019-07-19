@@ -1,0 +1,41 @@
+<app-header></app-header>
+<div id="content">
+    <div class="container submit-left">
+        <div class="row justify-content-md-left">
+            <div class="submit-hldr">
+                <p>
+                  As an RBFCU Really Free Checking account user, you receive FREE standard checks for check orders made online.
+                </p>
+                <p>
+                  Order your FREE standard checks in a few easy steps:
+                </p>
+                <ul>
+                  <li>
+                    From the 
+                    <a class="underline" href="/online/activity/reorder/checkReorder/redirect?postUrl={{(checkOrdersResponse$ | async)?.checkOrderUrl}}&id={{(checkOrdersResponse$ | async)?.encryptedAccountNumber}}" target="_blank">Order Checks</a>
+                    link, you will be directed to Harland Clarke's online ordering home page.
+                    (Note: If you previously ordered checks, your most recent order will be shown at the top of the homepage. Click on the green order button to be taken to the product detail ordering page)
+                  </li>
+                  <li>
+                    The first option shown is our standard RBFCU checks. Select this check design by clicking on the image of the check.
+                  </li>
+                  <li>
+                    Select the Randolph-Brooks design again to be taken to the product detail ordering page.
+                  </li>
+                  <li>
+                    Verify your check preferences (starting check number and personalization).
+                  </li>
+                  <li>
+                    Click the "Continue button" to confirm your order.
+                  </li>
+                </ul>
+                <p>
+                  RBFCU provides standard checks with standard shipping as a free option for members.<b> If you have chosen additional items, such as a checkbook cover, check enhancements or expedited shipping, you will be asked to pay a small charge when you check out.</b> However, if you order the standard RBFCU checks and select standard shipping, you should see no charge at the end of the checkout process.
+                </p>
+                <p>
+                  Thank you for using Really Free Checking. We're glad to provide you with free checks as a complement to the benefits of our free account and cash back <a class="underline" href="/banking/really-free-checking-account" target="_blank">Freedom Check Card</a>.
+                </p>
+        </div>      
+    </div>
+</div>
+<idle-timeout></idle-timeout>
